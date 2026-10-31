@@ -1,7 +1,15 @@
-# CIGO PDF Studio Web v1.4.2
+# CIGO PDF Studio Web v1.5
 
-Ripristinata la correzione sperimentale del testo nella pagina, con avviso esplicito prima della sostituzione. Conservati zoom, immagini ridimensionabili, annotazioni, evidenziazione ed esportazione.
+Versione web per GitHub Pages. Conserva apertura PDF, zoom, annotazioni, evidenziatore, immagini spostabili/ridimensionabili, gestione pagine, annulla/ripristina, esportazione.
 
-**Limite importante:** la correzione web sovrappone una maschera bianca e nuovo testo: non rimuove il contenuto PDF originale e può coprire linee, griglie e sfondi. Usare sempre una copia. La modifica nativa sicura resta disponibile nella versione Windows.
+## Correzione protetta del testo
 
-Ideato e progettato dal Prof. Marco Cigolotti — CIGO STUDIO, con il supporto dell’IA.
+La modalità **Correggi testo** usa una maschera più stretta, misura il testo sostitutivo e verifica se l’area attraversa linee della griglia nel rendering. Se le rileva, blocca la modifica per evitare danni evidenti. La verifica non garantisce di rilevare tutte le linee.
+
+**Limite fondamentale:** non è una modifica nativa. Il testo originale rimane nel PDF ed è potenzialmente ricercabile/copiabile. Non usare per oscurare informazioni riservate. Su PDF complessi il risultato può essere imperfetto. La modifica nativa richiede un motore più avanzato (attualmente versione Windows).
+
+## Installazione
+
+Carica `index.html` nella radice del repository GitHub Pages. Richiede connessione per le librerie JavaScript da CDN; i PDF vengono elaborati nel browser.
+
+Ideato e progettato dal Prof. Marco Cigolotti — CIGO STUDIO, con il supporto dell'Intelligenza Artificiale. © 2026 CIGO STUDIO.
