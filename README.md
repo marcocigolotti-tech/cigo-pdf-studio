@@ -1,7 +1,7 @@
-# CIGO PDF Studio Web v1.4.1
+# CIGO PDF Studio Web v1.4.2
 
-Correzione della gestione immagini: selezione, spostamento e ridimensionamento mediante maniglia azzurra.
+Ripristinata la correzione sperimentale del testo nella pagina, con avviso esplicito prima della sostituzione. Conservati zoom, immagini ridimensionabili, annotazioni, evidenziazione ed esportazione.
 
-La modifica del testo originale è disabilitata nella versione web per evitare danni a griglie e tabelle. Rimangono disponibili testo aggiuntivo, evidenziatore, forme, zoom, immagini, rotazione, unione ed esportazione.
+**Limite importante:** la correzione web sovrappone una maschera bianca e nuovo testo: non rimuove il contenuto PDF originale e può coprire linee, griglie e sfondi. Usare sempre una copia. La modifica nativa sicura resta disponibile nella versione Windows.
 
-Ideato e progettato dal Prof. Marco Cigolotti · CIGO STUDIO · con il supporto dell’IA.
+Ideato e progettato dal Prof. Marco Cigolotti — CIGO STUDIO, con il supporto dell’IA.
