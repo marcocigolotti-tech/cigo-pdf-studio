@@ -1,17 +1,17 @@
-# CIGO PDF Studio Web v1.7
+# CIGO PDF Studio Web v1.8
 
-Versione web per GitHub Pages, derivata dalla v1.6.
+Ideato e progettato dal Prof. Marco Cigolotti — CIGO STUDIO, con il supporto dell’Intelligenza Artificiale.
 
 ## Novità
-- **Verifica modifiche:** riepiloga le operazioni, controlla pagine e dimensioni delle annotazioni. Non garantisce l’assenza di sovrapposizioni visive.
-- **Copia originale:** scarica il PDF sorgente non modificato.
-- **Avviso prima dell’esportazione:** per correzioni grafiche del testo segnala che il contenuto originale non viene rimosso e può essere recuperato.
-- Compatibilità del formato progetto `.cigo` schema 1 mantenuta.
+- Ricerca testuale nelle pagine PDF selezionabili, con navigazione fra risultati e segnalazione grafica.
+- Messaggio esplicito quando l’unione dei PDF incorpora le annotazioni nel documento e le rende non più modificabili singolarmente.
+- Diagnostica più chiara sui limiti della verifica prima dell’esportazione.
+
+## Funzioni mantenute
+Zoom, annotazioni, evidenziazioni, immagini, gestione pagine, correzione grafica sperimentale, progetti `.cigo`, esportazione e copia originale.
 
 ## Limiti
-La modifica nativa del testo originale **non è implementata** nel browser. Le correzioni grafiche non sono una redazione sicura. Non utilizzare per rimuovere dati personali o riservati.
+La ricerca può non trovare parole divise in più frammenti interni del PDF; non effettua OCR. La correzione web non rimuove il testo originale e non è idonea a oscurare dati sensibili. Non è ancora presente un motore di modifica nativa del testo nel browser.
 
 ## Pubblicazione
-Carica `index.html` nella radice del repository GitHub Pages. Le librerie esterne sono caricate da CDN e richiedono accesso Internet.
-
-Ideato e progettato dal Prof. Marco Cigolotti — CIGO STUDIO. Supporto IA. © 2026.
+Caricare `index.html` e `README.md` nella radice del repository GitHub Pages. Richiede connessione alle librerie PDF distribuite via CDN.
