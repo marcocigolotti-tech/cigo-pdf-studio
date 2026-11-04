@@ -1,14 +1,12 @@
-# CIGO PDF Studio Web v1.12
+# CIGO PDF Studio Web v1.13
 
-Versione correttiva basata sul file v1.11 caricato dall’utente.
+Aggiornamento dell’interfaccia a partire dalla v1.12.
 
-- Menu a discesa mutuamente esclusivi, chiusi quando si clicca fuori.
-- Ripristino di accessi rapidi a selezione, correzione singola parola, testo, immagini, rettangoli, evidenziatori e gomma.
-- Menu Pagine e Controlli con collegamenti agli strumenti già presenti nel pannello laterale.
-- Pulsanti uniformi e menu scorrevoli.
-- Corretto l'errore JavaScript del vecchio pulsante wordMode non più presente.
-- Coordinate della parola corrette rispetto al canvas visibile.
+- Pannello destro con sezioni richiudibili per modalità, testo, immagini, evidenziatore, ricerca, pagine, elenco modifiche, zoom e guida.
+- I menu superiori si chiudono dopo un comando. Per Apri PDF / Apri progetto / Unisci PDF, si chiudono dopo la scelta del file.
+- Comando «Sostituisci una parola» al posto di «Correggi una parola».
+- Conservate le funzionalità PDF e i progetti .cigo.
 
-**Avvertenza**: la correzione delle parole è una sovrapposizione grafica, non una rimozione del testo originale. Non usare per oscurare dati sensibili.
+**Attenzione:** sostituire una parola è ancora una sovrapposizione grafica, non la rimozione del testo originale. Non utilizzare per oscurare informazioni riservate.
 
-Carica `index.html` su GitHub Pages e aggiorna la pagina con Ctrl+F5. Conserva una copia della v1.10 funzionante.
+Installazione: sostituire `index.html` nel repository GitHub Pages. Conservare una copia della v1.12.
