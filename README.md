@@ -1,15 +1,14 @@
-# CIGO PDF Studio Web v1.11
+# CIGO PDF Studio Web v1.12
 
-Novità:
-- Correzione grafica di una singola parola, individuata con il clic nel frammento di testo PDF (senza selezionare l’intera frase).
-- Comandi della barra superiore raccolti in File, Modifica e Controlli, con pulsanti uniformi.
-- Funzionalità precedenti conservate dalla v1.10.
+Versione correttiva basata sul file v1.11 caricato dall’utente.
 
-## Installazione
-Sostituisci `index.html` nel repository GitHub Pages. Per sicurezza conserva una copia della v1.10.
+- Menu a discesa mutuamente esclusivi, chiusi quando si clicca fuori.
+- Ripristino di accessi rapidi a selezione, correzione singola parola, testo, immagini, rettangoli, evidenziatori e gomma.
+- Menu Pagine e Controlli con collegamenti agli strumenti già presenti nel pannello laterale.
+- Pulsanti uniformi e menu scorrevoli.
+- Corretto l'errore JavaScript del vecchio pulsante wordMode non più presente.
+- Coordinate della parola corrette rispetto al canvas visibile.
 
-## Limiti
-La sostituzione è una maschera grafica: il testo originale può restare ricercabile e recuperabile. Non usarla per oscurare informazioni riservate. Il riconoscimento della singola parola funziona sui PDF con testo selezionabile; su PDF scansionati serve OCR. Alcuni font e parole molto ravvicinate possono richiedere verifica visiva.
+**Avvertenza**: la correzione delle parole è una sovrapposizione grafica, non una rimozione del testo originale. Non usare per oscurare dati sensibili.
 
-## Crediti
-Ideato e progettato dal Prof. Marco Cigolotti · CIGO STUDIO · Sviluppato con il supporto dell’Intelligenza Artificiale.
+Carica `index.html` su GitHub Pages e aggiorna la pagina con Ctrl+F5. Conserva una copia della v1.10 funzionante.
