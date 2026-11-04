@@ -1,17 +1,17 @@
-# CIGO PDF Studio Web v1.6
+# CIGO PDF Studio Web v1.7
 
-Ideato e progettato dal **Prof. Marco Cigolotti** — CIGO STUDIO. Sviluppato con il supporto dell’Intelligenza Artificiale. © 2026 CIGO STUDIO.
+Versione web per GitHub Pages, derivata dalla v1.6.
 
 ## Novità
-
-- **Salva progetto**: esporta un file `.cigo` contenente il PDF originale, le annotazioni, le immagini inserite, le correzioni grafiche, l’ordine delle pagine e le rotazioni.
-- **Apri progetto**: riprende il lavoro con le modifiche ancora selezionabili e modificabili.
-- Conservate le funzioni della v1.5.1.
-
-## Pubblicazione
-
-Caricare `index.html` nella radice del repository GitHub Pages. È necessaria la connessione a Internet per caricare le librerie JavaScript da CDN. I documenti sono elaborati nel browser.
+- **Verifica modifiche:** riepiloga le operazioni, controlla pagine e dimensioni delle annotazioni. Non garantisce l’assenza di sovrapposizioni visive.
+- **Copia originale:** scarica il PDF sorgente non modificato.
+- **Avviso prima dell’esportazione:** per correzioni grafiche del testo segnala che il contenuto originale non viene rimosso e può essere recuperato.
+- Compatibilità del formato progetto `.cigo` schema 1 mantenuta.
 
 ## Limiti
+La modifica nativa del testo originale **non è implementata** nel browser. Le correzioni grafiche non sono una redazione sicura. Non utilizzare per rimuovere dati personali o riservati.
 
-La correzione del testo originale sul web è ancora **grafica**: non elimina i caratteri originali dal PDF e non deve essere utilizzata per oscurare dati riservati. La modifica nativa non è stata aggiunta in questa versione. I progetti `.cigo` contengono una copia integrale del PDF, quindi vanno custoditi con cura. Il formato progetto è specifico di CIGO PDF Studio, non è un PDF.
+## Pubblicazione
+Carica `index.html` nella radice del repository GitHub Pages. Le librerie esterne sono caricate da CDN e richiedono accesso Internet.
+
+Ideato e progettato dal Prof. Marco Cigolotti — CIGO STUDIO. Supporto IA. © 2026.
